@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Question-2</title>
+</head>
+<body>
+		<script>
+              function mostConcequtiveNumber(input){
+                         var a=input+'';
+                         var b=a.split('');
+                         var count=0;
+                         var maxCount=0;
+                         for(var i=0;i<b.length;i++){
+                          if(b[i]==0){
+                          count=0;
+                        }
+                        else{
+                          count++;
+                          if(count>maxCount){
+                             maxCount=count;
+                             count=0;
+                          }
+                        }
+                      }
+                        return maxCount;
+                    } 
+            console.log(mostConcequtiveNumber(100110001001110))   
+            </script>
+</body>
+</html>

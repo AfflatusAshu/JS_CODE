@@ -1,0 +1,10 @@
+body{
+	background-color: cyan
+}
+#result,#data{
+	border: 2px solid;
+	border-radius: 20px;
+	width: 15%;
+	margin-left:35%;		
+	
+}
